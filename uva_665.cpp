@@ -158,7 +158,7 @@ int main()
    ll t;
    cin>>t;
    while(t--){
-      // cout<<"\n";
+       //cout<<"\n";
        ll n,k;
        cin>>n>>k;
        map<ll,char>mp;
@@ -208,10 +208,12 @@ int main()
            }
        }
        if(cnt==1)
-       cout<<ans<<"\n\n";
+       cout<<ans<<"\n";
        else
-       cout<<"0\n\n";
-
+       cout<<"0"<<"\n";
+    
+    if(t!=0)
+    cout<<"\n";
 
    }
 
